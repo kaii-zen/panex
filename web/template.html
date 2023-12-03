@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .centered {
+            display: flex;
+            justify-content: center; /* Horizontal centering */
+            align-items: center;     /* Vertical centering */
+            height: 300px;           /* Set a height for the div */
+        }
+    </style>
+    <title>All Projects</title>
+</head>
+<body>
+    <div class="centered">
+        {{ html_table|safe }}
+    </div>
+</body>
+</html>
